@@ -23,7 +23,8 @@ https://rapidapi.com/
 + investigar una fuente de información pública (api)
 + probarla y asegurarse que efectivamente funciona
 
-* Link a Github con prueba de llamado a API: https://github.com/AgustinaGV/TronaldDump
+    * Link a Github con prueba de llamado a API: https://github.com/AgustinaGV/TronaldDump
+    * Link a API: https://www.tronalddump.io/ - https://docs.tronalddump.io/ - https://www.tronalddump.io/random/quote 
 
 5 puntos - Deadline: 22/5
 
