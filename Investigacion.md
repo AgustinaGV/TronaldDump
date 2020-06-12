@@ -27,6 +27,7 @@ https://rapidapi.com/
 
 5 puntos - Deadline: 22/5
 
+
 ## 2) Diseñar una aplicación
 + Pensar un uso:
 * ¿A quién esta dirigido? (Comunidad: ¿argentina? ¿buenos aires? ¿umai? )
@@ -38,7 +39,7 @@ https://rapidapi.com/
     "Si no tienes conocimiento de ti mismo y de tu posición en la sociedad y el mundo, entonces tendrás pocas oportunidades de conocer nada más."
 
 * ¿Existe ya?
-    * (FDT - Fuck Donald Trump) - https://www.unnaturalelection.com/  - https://www.clarin.com/viste/artista-estadounidense-transforma-obras-arte-frases-extravagantes-donald-trump_0_dLgIE2Wta.html 
+    * Obras y artistas: (FDT - Fuck Donald Trump) - https://www.unnaturalelection.com/  - https://www.clarin.com/viste/artista-estadounidense-transforma-obras-arte-frases-extravagantes-donald-trump_0_dLgIE2Wta.html (en otro formato, también utiliza frases de Donald Trump)
 
 * ¿Como se implementa y como funciona? (diseño conceptual)
     * La idea es montar la información en una pantalla ¿tv?, con el formato visual que mantienen los noticieros, con una imagen principal y una pequeña placa al estilo Breaking News, que tenga en loop una de las frases que devuelve la API. La imagen principal va a mostrar, también en loop, un paisaje/ciudad/publicidad en el que no pase realmente nada. La imagen principal ocupará el 85% del tamaño de la pantalla (o soporte que se utilice), y la pequeña placa simil Breaking News con la frase en loop el 15% restante, en el margen inferior. Habrá un control remoto con botones disponibles para cambiar de canal, y al ser presionados los botones, cambiará la imagen y la frase pero se mantendrá el formato.
@@ -51,16 +52,15 @@ https://rapidapi.com/
 
     Mi intención con el diseño de este trabajo es hacer convivir las frases de Trump con distintas imagenes sin relación ni nada para ver ni evaluar. La idea es generar una sensación de extrañeza entre el contenido de las frases y la nula relevancia a nivel visual que van a tener, en este formato de noticiero que busca generar intrigas y dejarnos a la espera de novedades y más información. En paralelo, la posibilidad de cambiar de canal a otros en los que la dinámica es la misma: relevancia 0 a contenido que no solo es importante sino que repercute en nuestra vida.
 
-
-
 10 puntos - deadline: 5/6
+
 
 ## 3) Diseñar la interface
 * ¿Cuál es la manera mas simple de presentar esa información?
     * Creo que ésta es la manera más sencilla teniendo en cuenta que busca simular el hecho de mirar televisión. Elegir otro soporte, como celular o computadora, sería más sencillo pero se alejaría del contexto que se busca generar.
 
 * ¿Es esa manera la mas original? ¿Provoca un aporte al diseño de interfaces?
-    * No es original pero tampoco busca serlo, sino simular algo pero cambiando el contenido.
+    * No es original pero es la idea, sino simular algo pero cambiando el contenido.
 
 * ¿Requiere algún tipo de interacción?
     * Aunque las imagenes de este trabajo se pueden ver y pensar sin la necesidad de la interactividad de usuarixs, también éstos pueden formar parte y darle otro sentido al sentarse frente al *soporte*, o querer cambiar de canal. Creo que el sentido termina de armarse al encontrar algunos elementos familiares no sólo en los videos sino también en la actividad misma, en la pasividad *física* que se tiene al ver la tele/noticiero.
