@@ -23,6 +23,8 @@ https://rapidapi.com/
 + investigar una fuente de información pública (api)
 + probarla y asegurarse que efectivamente funciona
 
+* Link a Github con prueba de llamado a API: https://github.com/AgustinaGV/TronaldDump
+
 5 puntos - Deadline: 22/5
 
 ## 2) Diseñar una aplicación
@@ -36,10 +38,18 @@ https://rapidapi.com/
     "Si no tienes conocimiento de ti mismo y de tu posición en la sociedad y el mundo, entonces tendrás pocas oportunidades de conocer nada más."
 
 * ¿Existe ya?
-    * FDT - Fuck Donald Trump
+    * (FDT - Fuck Donald Trump) - https://www.unnaturalelection.com/  - https://www.clarin.com/viste/artista-estadounidense-transforma-obras-arte-frases-extravagantes-donald-trump_0_dLgIE2Wta.html 
 
 * ¿Como se implementa y como funciona? (diseño conceptual)
-    * 
+    * La idea es montar la información en una pantalla ¿tv?, con el formato visual que mantienen los noticieros, con una imagen principal y una pequeña placa al estilo Breaking News, que tenga en loop una de las frases que devuelve la API. La imagen principal va a mostrar, también en loop, un paisaje/ciudad/publicidad en el que no pase realmente nada. La imagen principal ocupará el 85% del tamaño de la pantalla (o soporte que se utilice), y la pequeña placa simil Breaking News con la frase en loop el 15% restante, en el margen inferior. Habrá un control remoto con botones disponibles para cambiar de canal, y al ser presionados los botones, cambiará la imagen y la frase pero se mantendrá el formato.
+    En relación a las frases, después de varios llamados a la API vi que algunas de las frases no son muy relevantes fuera de contexto o pierden "potencia". También es posible que en mí no causen tanto impacto porque hay muchas cosas de la cultura estadounidense y sucesos políticos cotidianos que a mí se me escapan, básicamente por vivir en otro país y no estar totalmente interiorizada en el tema. Es por esto que al momento de aplicarlas sería necesario crear algún tipo de filtro o selector, eligiendo algunas en relación a temas que se consideren más importantes o capacidad propia de cada frase de construir sentido por sí misma. En relación a crear un filtro, también es importante destacar que al parecer la última actualización de la API fue en diciembre de 2019. Es decir, en estos meses cargados de sucesos tan importantes, no quedó registro (o al menos no por ahora) de los dichos del actual presidente de EEUU.
+
+    * Imagenes referencia: https://www.youtube.com/watch?v=9NSVU4Gv_wA --> ¡¡estética!!- https://www.youtube.com/watch?v=zTBmv-Gzf2w - https://www.youtube.com/watch?v=sBsi5FGbY2Y 
+
+    * Arduino y botones, tutoriales referencia: https://www.youtube.com/watch?v=7ob8CDEmExs&t=1047s - https://www.youtube.com/watch?v=ksNbEuhO4fU&t=2s - https://www.youtube.com/watch?v=58Ynhqmvzoc - https://www.youtube.com/watch?v=LDVWuBcccns 
+    * Arduino y TV (podría ser otro soporte que simule ser una TV pero igual busqué para ver si se podían integrar): https://www.youtube.com/watch?v=DT9K0ZZl_rQ - https://www.youtube.com/watch?v=MUeIY_gLn3c (un bardo)
+
+    Mi intención con el diseño de este trabajo es hacer convivir las frases de Trump con distintas imagenes sin relación ni nada para ver ni evaluar. La idea es generar una sensación de extrañeza entre el contenido de las frases y la nula relevancia a nivel visual que van a tener, en este formato de noticiero que busca generar intrigas y dejarnos a la espera de novedades y más información. En paralelo, la posibilidad de cambiar de canal a otros en los que la dinámica es la misma: relevancia 0 a contenido que no solo es importante sino que repercute en nuestra vida.
 
 
 
@@ -47,12 +57,14 @@ https://rapidapi.com/
 
 ## 3) Diseñar la interface
 * ¿Cuál es la manera mas simple de presentar esa información?
+    * Creo que ésta es la manera más sencilla teniendo en cuenta que busca simular el hecho de mirar televisión. Elegir otro soporte, como celular o computadora, sería más sencillo pero se alejaría del contexto que se busca generar.
+
 * ¿Es esa manera la mas original? ¿Provoca un aporte al diseño de interfaces?
+    * No es original pero tampoco busca serlo, sino simular algo pero cambiando el contenido.
+
 * ¿Requiere algún tipo de interacción?
+    * Aunque las imagenes de este trabajo se pueden ver y pensar sin la necesidad de la interactividad de usuarixs, también éstos pueden formar parte y darle otro sentido al sentarse frente al *soporte*, o querer cambiar de canal. Creo que el sentido termina de armarse al encontrar algunos elementos familiares no sólo en los videos sino también en la actividad misma, en la pasividad *física* que se tiene al ver la tele/noticiero.
+    Aclaro *pasividad física* porque no creo que las personas tengan un rol pasivo al consumir televisión. Esto no es una idea original mía, claramente, sino que hay muchas personas que piensan, hablan, teorizan y un largo etc sobre este tema.
 
-Puede ser cualquier tipo de dispositivo fundamentalmente físicos (smart, arduino, etc)
 
-5 puntos - deadline: 5/6
-
-// Investigacion
-
+5 puntos - deadline: 12/6
