@@ -69,3 +69,6 @@ https://rapidapi.com/
 
 
 5 puntos - deadline: 12/6
+
+## Investigación API Twitter 
+* Nosotras invesitgamos la API de twitter para poder ampliar en el proyecto el espectro de frases posibles y filtrarlas según lo que decidamos. Para esto entramos a https://developer.twitter.com/ y nos fijamos los casos en los que la API estaba permitida usarse, la información que podías pedir y como emplearlo en tu proyecto. Rellenamos los documentos que el sitio tenia dispobiles bajo la cuenta de @MarianelaMaimo para ser aprobada como developer account, en grandes rasgos aclaramos la función de nuestra app y nuestra situación de estudiantes. Sin embargo, hasta el día de hoy no obtuvimos respuesta sobre el permiso y al no poder solicitar la API Key no se puede implementar en el proyecto.
