@@ -105,8 +105,15 @@ main {
 
 #breakingNews {
 
+    height: 10vh;
+    background-color:black;
+}
+
+#breakingNews div{
+
     background-color:black;
     color:white;
+    width: 100vw;
 }
 
 /* FOOTER */
