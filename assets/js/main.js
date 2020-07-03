@@ -24,6 +24,7 @@ const trumpSays = async () => {
     try {
         const trump = await getData();
         const trumpQuote = trump.value;
+        // Imprimo en pantalla la frase que me devuelve la api;
         $quotes.innerHTML = '';
         $quotes.innerHTML = trumpQuote;
         console.log(trumpQuote);
@@ -33,6 +34,7 @@ const trumpSays = async () => {
     }
 }
 
+// Boton para cambiar la frase;
 const boton = document.getElementById('botonPrueba');
 boton.addEventListener("click", function () {
     console.log("click");
