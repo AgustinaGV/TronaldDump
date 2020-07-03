@@ -95,7 +95,7 @@ main {
 
     /*padding:5em 0 0 0;*/
     text-align: center;
-    height: 90vh;
+    height: 89vh;
 }
 
 #containerMain img {
@@ -105,7 +105,7 @@ main {
 
 #breakingNews {
 
-    height: 10vh;
+    height: 11vh;
     background-color:black;
 }
 
@@ -113,7 +113,20 @@ main {
 
     background-color:black;
     color:white;
-    width: 100vw;
+    padding-left: 5em;
+}
+
+#breakingNews div p {
+
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+}
+
+#quotesTrump {
+
+    font-size: 1.5em;
 }
 
 /* FOOTER */
