@@ -85,9 +85,11 @@ header {
 
 main {
 
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
-    margin:0 auto;
-    height: 100vh;
 }
 
 #containerMain {
@@ -97,14 +99,19 @@ main {
     height: 89vh;
 }
 
-#containerMain img {
+#background {
 
-    width: 100%;
+    background-image: url("../imgs/paisajes/3.jpg");
+    height: 100%; 
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 #breakingNews {
 
-    height: 11vh;
+    height: 20vh;
     background-color:black;
 }
 
